@@ -1,0 +1,33 @@
+/* General Footer Styling */
+.footer {
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #ffffff; /* White text for readability */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Footer Text */
+.footer-text span {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.footer-text span:hover {
+    opacity: 1;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 12px; /* Smaller text on mobile */
+        padding: 15px 0;
+    }
+}
