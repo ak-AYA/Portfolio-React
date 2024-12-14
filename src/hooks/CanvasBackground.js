@@ -5,8 +5,8 @@ const CanvasBackground = () => {
   const particles = useRef([]);
 
   // Adjustable speed and connection settings
-  const INITIAL_SPEED = 0.22; // Base speed for particles' initial motion (slower speed)
-  const REPELLING_SPEED = 0.07; // Slower speed for repelling particles from mouse
+  const INITIAL_SPEED = 0.25; // Base speed for particles' initial motion (slower speed)
+  const REPELLING_SPEED = 0.18; // Slower speed for repelling particles from mouse
   const MAX_REPULSION_DISTANCE = 200; // Maximum distance at which particles are repelled by the mouse
   const MAX_CONNECTION_DISTANCE = 150; // Maximum distance to draw a connecting line
 
